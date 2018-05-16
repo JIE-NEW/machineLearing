@@ -57,4 +57,5 @@ print('地域分布',sorted(Address.items(), key = lambda item:item[1]))
 #print('地域分布',Address.sort(lambda a,b :-cmp(a[1],b[1])))
 print('用户类型：黄V:',UserType[0],' 政府：',UserType[1],' 企业：',UserType[2],' 媒体：',UserType[3],' 院校：',UserType[4],' 网站：',UserType[5],' 新浪：',UserType[7]) 
 userList.close()
+#修改测试
 
